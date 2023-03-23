@@ -1,5 +1,6 @@
 name: Run a one-line JavaScript file
-description: Runs a one-line JavaScript file and prints the result
+on:
+  workflow_dispatch
 inputs:
   js:
     description: 'The JavaScript code to run'
