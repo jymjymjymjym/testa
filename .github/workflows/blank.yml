@@ -1,13 +1,22 @@
 name: Run a one-line JavaScript file
 on:
   workflow_dispatch
-inputs:
-  js:
-    description: 'The JavaScript code to run'
-    required: true
-runs:
-  using: 'node12'
-  main: 'index.js'# This is a basic workflow to help you get started with Actions
+  
+  
+  
+jobs:
+  signin:
+    name: Aliyun Signin
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-node@latest
+
+      # Runs a single command using the runners shell
+      - name: Run a index.js
+        run: node index.js
+
+    
+
 
 
 
