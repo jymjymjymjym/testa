@@ -13,7 +13,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a index.js
-        run: node index.js
+        run: node index.js 
 
     
 
