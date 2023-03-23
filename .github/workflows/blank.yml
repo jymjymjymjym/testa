@@ -9,10 +9,10 @@ jobs:
     name: Aliyun Signin
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/setup-node@V14
+      - uses: actions/setup-node@v14
 
       # Runs a single command using the runners shell
-      - name: Run a index.js
+      - name: jytestRun a index.js
         run: node index.js 
 
     
